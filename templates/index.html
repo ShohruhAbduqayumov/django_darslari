@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% if ism %}
+    <h1><font color = 'red'> Salom {{ism}}</font></h1>
+    {% else %}
+    <h1><font color = 'red'> Salom Mehmon</font></h1>
+    {% endif %}
+
+    {% for i in ismlar %}
+    <p>{{i}}</p>
+    {% endfor %}
+</body>
+</html>
